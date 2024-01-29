@@ -1,0 +1,341 @@
+.mall-page {
+  width: 100%;
+  height: 100%;
+  background: url("@/assets/mall-bg.png") no-repeat;
+  background-size: cover;
+  padding-top: 160px;
+}
+
+.mall-page .box {
+  width: 1212px;
+  margin-bottom: 49px;
+}
+
+.mall-page .box .title {
+  height: 33px;
+  font-size: 24px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #252525;
+  line-height: 33px;
+  margin: 0 0 24px 7px;
+}
+
+.mall-page .box .dress-box {
+  height: 321px;
+}
+
+.mall-page .box .dress-box li {
+  width: 226px;
+  height: 321px;
+  border-radius: 48px 8px 48px 8px;
+  padding: 15px;
+  margin-right: 22px;
+}
+
+.mall-page .box .dress-box li div {
+  width: 196px;
+  height: 196px;
+}
+
+.mall-page .box .dress-box li div img {
+  width: 196px;
+}
+
+.mall-page .box .dress-box li .name {
+  width: 196px;
+  height: 33px;
+  font-size: 24px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #252525;
+  line-height: 33px;
+  margin: 20px 0 6px;
+}
+
+.mall-page .box .dress-box li .price img {
+  width: 19px;
+  height: 19px;
+  margin-right: 8px;
+}
+
+.mall-page .box .dress-box li .price span {
+  height: 24px;
+  font-size: 20px;
+  font-family: DINAlternate-Bold, DINAlternate;
+  font-weight: bold;
+  color: #7c7c7c;
+  line-height: 24px;
+}
+
+.mall-page .box .dress-box li:last-child {
+  margin-right: 0;
+}
+
+.mall-page .box .dress-box .choose-item {
+  border: 3px solid #D478FF;
+}
+
+.mall-page .box .dress-box .others {
+  border: 3px solid #FFA2DF;
+}
+
+.mall-page .box .msg-box {
+  width: 1212px;
+  height: 281px;
+  border-radius: 28px;
+  border: 3px solid #D478FF;
+  padding: 15px 32px;
+}
+
+.mall-page .box .msg-box .top .userid {
+  height: 60px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #252525;
+  line-height: 60px;
+}
+
+.mall-page .box .msg-box .top .query {
+  height: 60px;
+  margin-right: 32px;
+}
+
+.mall-page .box .msg-box .top .query > p {
+  width: 78px;
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #252525;
+  line-height: 28px;
+}
+
+.mall-page .box .msg-box .top .query .input-box {
+  width: 307px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 15px;
+  border: 1px solid #f0f0f0;
+  padding: 0 12px;
+}
+
+.mall-page .box .msg-box .top .query .input-box input {
+  width: 170px;
+  height: 36px;
+  line-height: 36px;
+  border: none;
+  outline: none;
+}
+
+.mall-page .box .msg-box .top .query .input-box input::-webkit-input-placeholder {
+  line-height: 36px;
+  font-size: 16px;
+  color: #bcbcbc;
+}
+
+.mall-page .box .msg-box .top .query .input-box button {
+  height: 36px;
+  font-size: 16px;
+  background: #D478FF;
+  border-radius: 8px;
+  line-height: 36px;
+  text-align: center;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #252525;
+  border: none;
+  cursor: pointer;
+}
+
+.mall-page .box .msg-box .top .query .input-box .sendCode {
+  width: 120px;
+}
+
+.mall-page .box .msg-box .top .query .input-box .login {
+  width: 64px;
+}
+
+.mall-page .box .msg-box .msg {
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #777777;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.mall-page .box .msg-box .pay {
+  width: 160px;
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #252525;
+  line-height: 28px;
+  margin: 27px 0 15px;
+}
+
+.mall-page .box .msg-box .balance-box .balance-left {
+  width: 193px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 8px;
+  position: relative;
+}
+
+.mall-page .box .msg-box .balance-box .balance-left .text {
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #252525;
+  line-height: 28px;
+  text-align: center;
+}
+
+.mall-page .box .msg-box .balance-box .balance-left .balance {
+  margin-top: 6px;
+}
+
+.mall-page .box .msg-box .balance-box .balance-left .balance span {
+  height: 22px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 22px;
+}
+
+.mall-page .box .msg-box .balance-box .balance-left .balance .num {
+  margin: 0 4px 0 12px;
+}
+
+.mall-page .box .msg-box .balance-box .balance-left .balance > img {
+  width: 18px;
+  height: 18px;
+}
+
+.mall-page .box .msg-box .balance-box .balance-left > img {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: -3px;
+  top: -6px;
+}
+
+.mall-page .box .msg-box .balance-box .choose {
+  border: 1px solid #FFA2DF;
+}
+
+.mall-page .box .msg-box .balance-box .nochoose {
+  border: 1px solid #FFA2DF;
+}
+
+.mall-page .box .msg-box .balance-box .balance-right .balance-num > p {
+  height: 49px;
+  font-size: 24px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #252525;
+  line-height: 49px;
+  letter-spacing: 3px;
+}
+
+.mall-page .box .msg-box .balance-box .balance-right .balance-num > p span {
+  font-size: 35px;
+  color: #f56969;
+}
+
+.mall-page .box .msg-box .balance-box .balance-right .balance-num > div {
+  margin-top: 12px;
+}
+
+.mall-page .box .msg-box .balance-box .balance-right .balance-num > div img {
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+}
+
+.mall-page .box .msg-box .balance-box .balance-right .balance-num > div p {
+  min-width: 246px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #252525;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.mall-page .box .msg-box .balance-box .balance-right .balance-num > div p .agreement {
+  color: #f56969;
+}
+
+.mall-page .box .msg-box .balance-box .balance-right .buy {
+  width: 193px;
+  height: 63px;
+  margin-left: 24px;
+}
+
+.mall-page .box .msg-box .balance-box .balance-right .canClick {
+  filter: grayscale(1);
+}
+
+.mall-page :deep(.el-dialog) {
+  width: 608px;
+  height: 275px;
+  border-radius: 16px;
+}
+
+.mall-page :deep(.el-dialog__body) {
+  padding: 25px 0;
+}
+
+.mall-page :deep(.el-dialog__title) {
+  height: 33px;
+  font-size: 24px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #252525;
+  line-height: 33px;
+}
+
+.mall-page .dialog-msg {
+  text-align: center;
+  margin: 0 auto;
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #252525;
+  line-height: 28px;
+}
+
+.mall-page .dialog-foot {
+  width: 414px;
+  height: 63px;
+  margin: 0 auto;
+}
+
+.mall-page .dialog-foot .btn {
+  width: 193px;
+  height: 63px;
+  border-radius: 15px;
+  font-size: 24px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #252525;
+  letter-spacing: 2px;
+  border: none;
+}
+
+.mall-page .dialog-foot .cancel-btn {
+  background: #FFA2DF;
+}
+
+.mall-page .dialog-foot .affirm-btn {
+  background: #D478FF;
+}
