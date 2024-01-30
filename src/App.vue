@@ -6,8 +6,15 @@
         <!-- <span>公主喵</span> -->
       </div>
       <ul class="header-right flex justify-center items-center">
-        <li v-for="item in routers" :key="item.id" class="flex flex-col items-center" @click="handleJump(item)">
-          <p :class="data.chooseId === item.id ? 'active' : ''">{{ item.name }}</p>
+        <li
+          v-for="item in routers"
+          :key="item.id"
+          class="flex flex-col items-center"
+          @click="handleJump(item)"
+        >
+          <p :class="data.chooseId === item.id ? 'active' : ''">
+            {{ item.name }}
+          </p>
           <!-- <img v-if="data.chooseId === item.id" :src="getImageUrl('active-line')" alt="" /> -->
         </li>
       </ul>
@@ -29,7 +36,10 @@
             <h3>苹果端</h3>
           </div>
           <div class="left-items">
-            <button class="pointer" @click="openWind('//statics.xiapaolong.com/app/gzm.apk')">
+            <button
+              class="pointer"
+              @click="openWind('//statics.xiapaolong.com/app/gzm.apk')"
+            >
               <img src="@/assets/android.png" alt="" />
               <span>Android下载</span>
             </button>
@@ -45,7 +55,15 @@
               href="https://beian.miit.gov.cn/"
               style="display: inline-block; height: 20px; line-height: 20px"
               ><img src="@/assets/备案图标.png" style="float: left" />
-              <p style="float: left; height: 20px; line-height: 20px; margin: 0px 0px 0px 5px; color: #939393">
+              <p
+                style="
+                  float: left;
+                  height: 20px;
+                  line-height: 20px;
+                  margin: 0px 0px 0px 5px;
+                  color: #939393;
+                "
+              >
                 辽ICP备2023009431号-1
               </p>
             </a>
@@ -69,16 +87,16 @@ const routers = [
   {
     id: 0,
     name: '首页',
-    path: '/home',
+    path: '/home'
   },
   {
     id: 1,
     name: '商城',
-    path: '/mall',
-  },
+    path: '/mall'
+  }
 ]
 const data = reactive({
-  chooseId: 0,
+  chooseId: 0
 })
 watch(
   () => router.currentRoute.value,
@@ -91,7 +109,7 @@ watch(
 const handleJump = (item) => {
   data.chooseId = item.id
   router.push({
-    path: item.path,
+    path: item.path
   })
 }
 
@@ -111,7 +129,7 @@ onBeforeUnmount(() => {
 
 <style scoped lang="scss">
 .header {
-  width: calc(100% - 40px);
+  width: 100%;
   height: 120px;
   padding: 33px 0;
   position: fixed;
@@ -177,7 +195,8 @@ onBeforeUnmount(() => {
 }
 
 .foot-box {
-  width: 1920px;
+  position: relative;
+  width: 100%;
   height: 370px;
   background-color: black;
 
